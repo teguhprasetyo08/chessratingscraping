@@ -19,7 +19,7 @@ message("Preprocessing Data Frame Elements")
 tabel$Name <- str_squish(tabel$Name)
 tabel_fix <- tabel[,-3]
 tabel_fix$Rank <- substr(tabel_fix$Rank,nchar(tabel_fix$Rank)-3+1,nchar(tabel_fix$Rank))
-View(tabel_fix)
+
 
 #------------------------------------------------------
 message("Connect to MongoDB Cloud")
