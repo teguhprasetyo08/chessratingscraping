@@ -21,5 +21,7 @@ jobs:
         run: Rscript -e 'install.packages("mongolite", dependencies = TRUE)'
       - name: Install rvest package
         run: Rscript -e 'install.packages("rvest", dependencies = TRUE)'        
+      - name: Install tidyverse package
+        run: Rscript -e 'install.packages("tidyverse", dependencies = TRUE)'
       - name: Scrape data 
         run: Rscript scrape.R
