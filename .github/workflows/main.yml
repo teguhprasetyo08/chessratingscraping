@@ -27,5 +27,8 @@ jobs:
         run: Rscript -e 'install.packages("dplyr", dependencies = TRUE)'
       - name: Install XQuartz package
         run: Rscript -e 'install.packages("XQuartz", dependencies = TRUE)'
+      - name: Install X11 package
+        run: Rscript -e 'install.packages("X11", dependencies = TRUE)'
       - name: Scrape data 
         run: Rscript scrape.R
+
