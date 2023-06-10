@@ -25,5 +25,7 @@ jobs:
         run: Rscript -e 'install.packages("tidyverse", dependencies = TRUE)'
       - name: Install dplyr package
         run: Rscript -e 'install.packages("dplyr", dependencies = TRUE)'
+      - name: Install XQuartz package
+        run: Rscript -e 'install.packages("XQuartz", dependencies = TRUE)'
       - name: Scrape data 
         run: Rscript scrape.R
