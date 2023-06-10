@@ -2,7 +2,7 @@ name: Daily Scraping FIDE Chess Player Rating
 
 on:
   schedule:
-    - cron: '*/5 * * * *'   # 5 menit test
+    - cron: '0 */12 * * *'   # every 12 hours
 
 
 jobs:
