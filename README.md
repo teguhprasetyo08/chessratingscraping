@@ -1,4 +1,4 @@
-<div align="center">
+<div align="left">
   
   ![image](chess-king-wooden-pieces-3yal5hd39dvbvu9u.jpg)
 
