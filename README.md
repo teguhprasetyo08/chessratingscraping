@@ -35,6 +35,6 @@
 }
 ```
 ## Hasil Laporan
-  Adapun hasil laporan tugas ini dapat diakses dalam laman Rpubs berikut: https://rpubs.com/teguhprasetyo08/chessrating
+  Hasil laporan tugas ini dapat diakses dalam laman Rpubs berikut: https://rpubs.com/teguhprasetyo08/chessrating
 
 
