@@ -28,6 +28,9 @@
   },
   "Blitz": {
     "Integer"
+  },
+  "Scraping_Date": {
+    "Date Time"
   }
 }
 ```
