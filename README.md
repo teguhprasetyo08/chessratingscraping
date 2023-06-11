@@ -4,7 +4,7 @@
 
 # Scraping Rating Pemain Catur FIDE
 ## Tentang
-  Disusun untuk memenuhi tugas akhir praktikum Mata Kuliah Manajemen Data Statistika topik Web Scraping & Crawling
+  Tugas ini disusun untuk memenuhi tugas akhir praktikum Mata Kuliah Manajemen Data Statistika topik *Web Scraping & Crawling*
   Sumber data pada scraping ini dari situs https://www.chess.com/ratings di mana pada laman tersebut menyajikan live rating pemain catur FIDE yang terdiri dari rating permainan tipe klasik (classical), cepat (rapid), dan kilat (blitz). Pada situs tersebut, update dilakukan secara harian dengan mengkalkulasi rating terbaru berdasarkan pertandingan FIDE resmi. FIDE adalah organisasi yang mewadahi olahraga catur dunia, yang memiliki agenda rutin pertandingan catur dari beberapa tipe permainan.
   Scraping dilakukan menggunakan library *rvest* pada *software R* dan hasilnya disimpan dalam bentuk basis data NoSQL *collection* pada *MongoDB Atlas*.
   
@@ -37,4 +37,7 @@
 ## Hasil Laporan
   Hasil laporan tugas ini dapat diakses dalam laman Rpubs berikut: https://rpubs.com/teguhprasetyo08/chessrating
 
-
+## Penulis
+  TEGUH PRASETYO/G1501221031
+  Pascasarjana Statistika dan Sains Data
+  Institut Pertanian Bogor
