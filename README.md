@@ -9,7 +9,28 @@
   Scraping dilakukan menggunakan library *rvest* pada *software R* dan hasilnya disimpan dalam bentuk basis data NoSQL *collection* pada *MongoDB Atlas*.
   
 ## Struktur Dokumen
-  
+  Berikut ini adalah contoh dokumen pada koleksi MongoDB yang sudah tersimpan
+
+```
+{"_id":
+  {"$oid":"64829d80ce65eb57da0a4356"},
+  "Rank": {
+    "String"
+  },
+  "Name": {
+    "String"
+  },
+  "Classical": {
+    "Integer"
+  },
+  "Rapid": {
+    "Integer"
+  },
+  "Blitz": {
+    "Integer"
+  }
+}
+```
   
 
 
